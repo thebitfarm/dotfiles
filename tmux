@@ -26,3 +26,9 @@ set -g default-terminal "screen-256color"
 setw -g monitor-activity on
 set -g visual-activity off
 
+
+# Mouse stuff                                                                   
+setw -g mode-mouse on                                                           
+setw -g mouse-select-window on                                                  
+setw -g mouse-select-pane on                                                    
+setw -g mouse-resize-pane on
