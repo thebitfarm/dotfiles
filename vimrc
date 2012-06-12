@@ -39,6 +39,9 @@ colorscheme tomorrow_night          " Tomorrow Theme
 " Disable Pylint on Save
 let g:pymode_lint_write = 0         " python-mode
 
+" Enable python folding
+let g:pymode_folding = 1            " python-mode
+
 set laststatus=2                    " Always show the statusline
 
 " Enable fancy mode 
