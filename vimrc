@@ -30,7 +30,7 @@ set cursorline                               " shows the horizontal cursor line
 :iabbrev @@     yusuf.mahdi@gmail.com
 :iabbrev ccopy  Copyright 2012 Mahdi Yusuf, all rights reserved.
 :iabbrev pdb    # XXX BREAKPOINT XXX <cr>import pdb; pdb.set_trace()
-:iabbrev python #!/usr/bin/env python <cr> #-*- coding: utf-8 -*-
+:iabbrev python #!/usr/bin/env python <cr>#-*- coding: utf-8 -*-
 
 "" Searching
 set hlsearch                        " highlight matches
