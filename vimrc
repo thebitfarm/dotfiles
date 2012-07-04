@@ -19,8 +19,8 @@ set backspace=indent,eol,start      " backspace through everything in insert mod
 set relativenumber                           " setting line numbers
 set colorcolumn=81                           " line to show 81 character mark
 set cursorline                               " shows the horizontal cursor line
-:nnoremap <leader>ev :vsplit $MYVIMRC<cr>    " mapping to edit my vimrc quickly
-:nnoremap <leader>sv :source $MYVIMRC<cr>    " mapping to source my vimrc quickly
+nnoremap <leader>ev :vsplit $MYVIMRC<cr>    " mapping to edit my vimrc quickly
+nnoremap <leader>sv :source $MYVIMRC<cr>    " mapping to source my vimrc quickly
 
 "Auto Commands
 :autocmd BufWrite *.html :normal gg=G        " reindent html files on save
@@ -44,7 +44,7 @@ nmap <F2> :NERDTreeToggle<CR>       " mapping f2 to NERDTreeToggle
 nmap <F3> :NumbersToggle<CR>        " mapping f3 to NumbersToggle
 noremap <F5> :GundoToggle<CR>       " mapping f5 to Gundo
 noremap <F9> :Gcommit<CR>           " mapping f9 to Gcommit
-noremap jj <Esc>                   "<Esc> to jj
+noremap! jj <Esc>                   "<Esc> to jj
 
 "" Mapping 
 let mapleader = ","                 " setting leader to , 
