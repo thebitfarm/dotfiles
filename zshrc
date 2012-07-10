@@ -38,6 +38,7 @@ unsetopt correct_all
 
 export PATH=/usr/local/bin/:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:
 export PATH=$PATH:/usr/local/sbin
+export PATH=/Applications/Postgres.app/Contents/MacOS/bin:$PATH
 source /usr/local/bin/virtualenvwrapper.sh
 
 alias runserver='python manage.py runserver'
