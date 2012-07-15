@@ -21,6 +21,7 @@ ln -s ~/Github/dotfiles/gvimrc ~/.gvimrc
 ln -s ~/Github/dotfiles/gitconfig ~/.gitconfig
 ln -s ~/Github/dotfiles/gitignore ~/.gitignore
 ln -s ~/Github/dotfiles/tmux ~/.tmux.conf
+ln -s ~/Github/dotfiles/githelpers ~/.githelpers
 
 echo "Updating submodules"
 git submodule foreach git pull origin master --recurse-submodules
