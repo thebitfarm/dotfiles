@@ -7,6 +7,6 @@ set cursorline
 set anti
 
 au FocusLost * :wa              " Save on losing window focus
-set guifont=Ubuntu\ Mono\ Bold\ 10 " Setting font
+set guifont=Monaco h:12 " Setting font
 
 
