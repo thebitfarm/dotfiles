@@ -14,10 +14,14 @@ set nowrap                          " don't wrap lines
 set tabstop=4 shiftwidth=4          " a tab is two spaces (or set this to 4)
 set expandtab                       " use spaces, not tabs
 set backspace=indent,eol,start      " backspace through everything in insert mode
+set list
 
+" MacVim Settings
+:set guifont=Monaco:h12
 
 "Auto Commands
-:autocmd BufWrite *.html :normal gg=G        " reindent html files on save
+:autocmd BufWrite *.py %retab                 " retab python files on write
+":autocmd BufWrite *.html :normal gg=G        " reindent html files on save
 
 "Abbreviations
 :iabbrev @@     yusuf.mahdi@gmail.com
@@ -46,7 +50,7 @@ let mapleader = ","                 " setting leader to ,
 colorscheme tomorrow_night          " Tomorrow Theme
 
 " Disable Pylint on Save
-let g:pymode_lint_write = 0         " python-mode
+"let g:pymode_lint_write = 0         " python-mode
 
 " Enable python folding
 let g:pymode_folding = 0            " python-mode
