@@ -45,7 +45,7 @@ alias runserver='python manage.py runserver'
 alias syncdb='python manage.py syncdb'
 alias youtube='~/Github/youtube-dl/youtube-dl -t' 
 alias mvim='/Applications/MacVim.app/Contents/MacOS/Vim -g $*'
-alias celeryd='python manage.py celeryd --loglevel=info -E'
+alias celeryd='python manage.py celery worker --loglevel=info'
 
 # Terminal 256 colors
 export TERM="xterm-256color"
