@@ -49,3 +49,4 @@ alias celeryd='python manage.py celery worker --loglevel=info'
 
 # Terminal 256 colors
 export TERM="xterm-256color"
+export PYTHONDONTWRITEBYECODE=1
