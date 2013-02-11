@@ -50,3 +50,4 @@ alias celeryd='python manage.py celery worker --loglevel=info'
 # Terminal 256 colors
 export TERM="xterm-256color"
 export PYTHONDONTWRITEBYTECODE=1
+[[ -s /Users/myusuf3/.pythonz/etc/bashrc ]] && source /Users/myusuf3/.pythonz/etc/bashrc
