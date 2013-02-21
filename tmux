@@ -26,6 +26,8 @@ set -g default-terminal "screen-256color"
 setw -g monitor-activity on
 set -g visual-activity off
 
+# Make copy paste work. I honestly don't know how we fly planes in the sky.
+set-option -g default-command "reattach-to-user-namespace -l zsh"
 
 # Mouse stuff                                                                   
 setw -g mode-mouse on                                                           
