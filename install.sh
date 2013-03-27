@@ -22,6 +22,7 @@ ln -s ~/Github/dotfiles/gitconfig ~/.gitconfig
 ln -s ~/Github/dotfiles/gitignore ~/.gitignore
 ln -s ~/Github/dotfiles/tmux ~/.tmux.conf
 ln -s ~/Github/dotfiles/githelpers ~/.githelpers
+ln -s ~/Github/dotfiles/hgrc ~/.hgrc
 
 echo "Updating submodules"
 git submodule foreach git pull origin master --recurse-submodules
