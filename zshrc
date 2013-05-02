@@ -36,11 +36,13 @@ unsetopt correct_all
 
 # Customize to your needs...
 
+source /usr/local/bin/virtualenvwrapper.sh
+
 export PATH=/usr/local/bin/:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:
 export PATH=$PATH:/usr/local/sbin
 export PATH=/Applications/Postgres.app/Contents/MacOS/bin:$PATH
-source /usr/local/bin/virtualenvwrapper.sh
 export PATH=/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin:$PATH
+export EDITOR='subl -w'
 
 alias runserver='python manage.py runserver'
 alias syncdb='python manage.py syncdb'
