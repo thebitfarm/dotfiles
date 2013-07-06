@@ -38,6 +38,7 @@ unsetopt correct_all
 
 source /usr/local/bin/virtualenvwrapper.sh
 
+export PORT=8000
 export PATH=/usr/local/bin/:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:
 export PATH=$PATH:/usr/local/sbin
 export PATH=/Applications/Postgres.app/Contents/MacOS/bin:$PATH
@@ -58,3 +59,6 @@ export VIRTUALENV_DISTRIBUTE=true
 [[ -s /Users/myusuf3/.pythonz/etc/bashrc ]] && source /Users/myusuf3/.pythonz/etc/bashrc
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
