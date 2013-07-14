@@ -15,7 +15,7 @@ set tabstop=4 shiftwidth=4          " a tab is two spaces (or set this to 4)
 set expandtab                       " use spaces, not tabs
 set backspace=indent,eol,start      " backspace through everything in insert mode
 set list
-
+set term=screen-256color            " setting colors when vim is inside tmux
 " MacVim Settings
 :set guifont=Monaco:h12
 
