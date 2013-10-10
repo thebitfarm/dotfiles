@@ -7,6 +7,7 @@
 
 [alias]
     l = "!source ~/.githelpers && prett_git_log"
+	ci = commit -v
 
 [color]
     ui = auto
