@@ -2,7 +2,7 @@
     "auto_complete_commit_on_tab": true,
     "bold_folder_labels": true,
     "close_windows_when_empty": true,
-    "color_scheme": "Packages/tomorrow-theme/textmate/Tomorrow-Night-Eighties.tmTheme",
+    "color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night-Eighties.tmTheme",
     "draw_white_space": "all",
     "fade_fold_buttons": false,
     "find_selected_text": true,
@@ -44,4 +44,3 @@
     "use_simple_full_screen": true,
     "vintage_lines.force_mode": true
 }
-
