@@ -12,6 +12,7 @@ rm ~/.gvimrc
 rm ~/.gitconfig
 rm ~/.gitignore
 rm ~/.tmux.conf
+rm ~/.pip/pip.conf
 
 echo "Symlinking files"
 ln -s ~/Github/dotfiles/vimrc ~/.vimrc
@@ -23,6 +24,7 @@ ln -s ~/Github/dotfiles/gitignore ~/.gitignore
 ln -s ~/Github/dotfiles/tmux ~/.tmux.conf
 ln -s ~/Github/dotfiles/githelpers ~/.githelpers
 ln -s ~/Github/dotfiles/hgrc ~/.hgrc
+ln -s ~/Github/dotfiles/pip.conf ~/.pip/pip.conf
 ln -s ~/Github/dotfiles/myusuf3.zsh-theme ~/.oh-my-zsh/themes/
 echo "Updating submodules"
 git submodule foreach git pull origin master --recurse-submodules
