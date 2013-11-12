@@ -35,9 +35,8 @@
 [core]
 	editor = vim
 	excludesfile = ~/.gitignore
+  mergeoptions = --no-edit
 
 [heroku]
     account = myusuf3
 
-[core]
-    mergeoptions = --no-edit
