@@ -37,4 +37,7 @@
 	excludesfile = ~/.gitignore
 
 [heroku]
-	account = myusuf3
+    account = myusuf3
+
+[core]
+    mergeoptions = --no-edit
