@@ -6,11 +6,11 @@
 	user = myusuf3
 
 [alias]
-    l = "!source ~/.githelpers && prett_git_log"
+	l = "!source ~/.githelpers && prett_git_log"
 	ci = commit -v
 
 [color]
-    ui = auto
+	ui = auto
 	diff = auto
 	status = auto
 	branch = auto
@@ -38,5 +38,5 @@
 	mergeoptions = --no-edit
 
 [heroku]
-    account = myusuf3
+	account = myusuf3
 
