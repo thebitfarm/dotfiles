@@ -42,7 +42,7 @@ unsetopt correct_all
 export PORT=8000
 export PATH=/usr/local/opt/ruby/bin:/usr/local:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:
 export PATH=$PATH:/usr/local/sbin
-export PATH=/Applications/Postgres.app/Contents/MacOS/bin:$PATH
+export PATH=/Applications/Postgres.app/Contents/Versions/9.3/bin:$PATH
 export PATH=/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin:$PATH
 export EDITOR='subl -w'
 
@@ -51,7 +51,6 @@ source /usr/local/bin/virtualenvwrapper.sh
 alias runserver='python manage.py runserver'
 alias syncdb='python manage.py syncdb'
 alias youtube='~/Github/youtube-dl/youtube-dl -t'
-alias mvim='/Applications/MacVim.app/Contents/MacOS/Vim -g $*'
 alias celeryd='python manage.py celery worker --loglevel=info'
 
 # Terminal 256 colors
