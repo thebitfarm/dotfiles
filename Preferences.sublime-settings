@@ -43,7 +43,7 @@
     "trim_trailing_white_space_on_save": true,
     "use_simple_full_screen": true,
     "vintage_lines.force_mode": true,
-    "spacegray_tabs_font_xlarge": true,
+    "spacegray_tabs_font_xlarge": false,
     "spacegray_tabs_xlarge": true,
-    "spacegray_sidebar_font_xlarge": true,
+    "spacegray_sidebar_font_xlarge": true
 }
