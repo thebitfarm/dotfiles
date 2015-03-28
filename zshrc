@@ -38,11 +38,10 @@ unsetopt correct_all
 
 
 
-
 export PORT=8000
 export PATH=/usr/local/opt/ruby/bin:/usr/local:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:
 export PATH=$PATH:/usr/local/sbin
-export PATH=/Applications/Postgres.app/Contents/Versions/9.3/bin:$PATH
+export PATH=/Applications/Postgres.app/Contents/Versions/9.4/bin:$PATH
 export PATH=/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin:$PATH
 export EDITOR='subl -w'
 
@@ -64,3 +63,7 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+# Go stuff
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
