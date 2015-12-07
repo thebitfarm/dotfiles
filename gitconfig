@@ -1,9 +1,9 @@
 [user]
-	name = Mahdi Yusuf
-	email = yusuf.mahdi@gmail.com
+	name = Joseph Schafer
+	email = github@thebitfarm.org
 
 [github]
-	user = myusuf3
+	user = thebitfarm
 
 [branch "master"]
 	remote = origin
@@ -42,5 +42,5 @@
 	mergeoptions = --no-edit
 
 [heroku]
-	account = myusuf3
+	account = thebitfarm
 
