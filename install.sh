@@ -13,12 +13,14 @@ rm ~/.gitconfig
 rm ~/.gitignore
 rm ~/.tmux.conf
 rm ~/.pip/pip.conf
+rm ~/.bashrc
 
 echo "Symlinking files"
 ln -s ~/Data/projects/dotfiles/vimrc ~/.vimrc
 ln -s ~/Data/projects/dotfiles/zshrc ~/.zshrc
 ln -s ~/Data/projects/dotfiles/vim ~/.vim
 ln -s ~/Data/projects/dotfiles/gvimrc ~/.gvimrc
+ln -s ~/Data/projects/dotfiles/bashrc ~/.bashrc
 ln -s ~/Data/projects/dotfiles/gitconfig ~/.gitconfig
 ln -s ~/Data/projects/dotfiles/gitignore ~/.gitignore
 ln -s ~/Data/projects/dotfiles/tmux ~/.tmux.conf
@@ -30,4 +32,3 @@ echo "Updating submodules"
 git submodule foreach git pull origin master --recurse-submodules
 
 echo "All done."
-
