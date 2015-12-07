@@ -22,3 +22,12 @@
 [submodule "vim/bundle/numbers"]
 	path = vim/bundle/numbers
 	url = git@github.com:myusuf3/numbers.vim.git
+[submodule "theme"]
+	path = theme
+	url = git@github.com:hukl/Smyck-Color-Scheme.git
+[submodule "theme/theme"]
+	path = theme/theme
+	url = git@github.com:hukl/Smyck-Color-Scheme.git
+[submodule "theme/smyck"]
+	path = theme/smyck
+	url = git@github.com:hukl/Smyck-Color-Scheme.git
