@@ -15,17 +15,17 @@ rm ~/.tmux.conf
 rm ~/.pip/pip.conf
 
 echo "Symlinking files"
-ln -s ~/Github/dotfiles/vimrc ~/.vimrc
-ln -s ~/Github/dotfiles/zshrc ~/.zshrc
-ln -s ~/Github/dotfiles/vim ~/.vim
-ln -s ~/Github/dotfiles/gvimrc ~/.gvimrc
-ln -s ~/Github/dotfiles/gitconfig ~/.gitconfig
-ln -s ~/Github/dotfiles/gitignore ~/.gitignore
-ln -s ~/Github/dotfiles/tmux ~/.tmux.conf
-ln -s ~/Github/dotfiles/githelpers ~/.githelpers
-ln -s ~/Github/dotfiles/hgrc ~/.hgrc
-ln -s ~/Github/dotfiles/pip.conf ~/.pip/pip.conf
-ln -s ~/Github/dotfiles/myusuf3.zsh-theme ~/.oh-my-zsh/themes/
+ln -s ~/Data/projects/dotfiles/vimrc ~/.vimrc
+ln -s ~/Data/projects/dotfiles/zshrc ~/.zshrc
+ln -s ~/Data/projects/dotfiles/vim ~/.vim
+ln -s ~/Data/projects/dotfiles/gvimrc ~/.gvimrc
+ln -s ~/Data/projects/dotfiles/gitconfig ~/.gitconfig
+ln -s ~/Data/projects/dotfiles/gitignore ~/.gitignore
+ln -s ~/Data/projects/dotfiles/tmux ~/.tmux.conf
+ln -s ~/Data/projects/dotfiles/githelpers ~/.githelpers
+ln -s ~/Data/projects/dotfiles/hgrc ~/.hgrc
+ln -s ~/Data/projects/dotfiles/pip.conf ~/.pip/pip.conf
+ln -s ~/Data/projects/dotfiles/myusuf3.zsh-theme ~/.oh-my-zsh/themes/
 echo "Updating submodules"
 git submodule foreach git pull origin master --recurse-submodules
 
