@@ -1,4 +1,4 @@
-Mahdi Yusuf's Dot Files
+thebitfarm's Dot Files
 =======================
 
 These are my configs and setup a system the way I like it.
@@ -14,3 +14,8 @@ Guide
 =====
 
 http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
+
+
+Originally Mahdi Yusuf's Dot Files
+
+https://github.com/myusuf3/dotfiles
