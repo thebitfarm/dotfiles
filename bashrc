@@ -1,6 +1,7 @@
 #!/bin/bash
 
-set -o vi
+#set -o vi
+set -o emacs
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
