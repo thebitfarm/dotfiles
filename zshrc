@@ -5,7 +5,10 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="amuse" #"agnoster"
+ZSH_THEME="agnoster" #"agnoster"
+
+## Default User
+DEFAULT_USER="joe"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -43,7 +46,7 @@ export PATH=$PATH:/usr/local/sbin
 export PATH=/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin:$PATH
 export EDITOR='subl -w'
 
-source /usr/local/bin/virtualenvwrapper.sh
+#source /usr/local/bin/virtualenvwrapper.sh
 
 alias runserver='python manage.py runserver'
 alias syncdb='python manage.py syncdb'
