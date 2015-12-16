@@ -14,6 +14,8 @@ rm ~/.gitignore
 rm ~/.tmux.conf
 rm ~/.pip/pip.conf
 rm ~/.bashrc
+rm ~/.hgrc
+rm ~/.githelpers
 
 echo "Symlinking files"
 ln -s ~/Data/projects/dotfiles/vimrc ~/.vimrc
