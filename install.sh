@@ -27,7 +27,6 @@ ln -s ~/Data/projects/dotfiles/tmux ~/.tmux.conf
 ln -s ~/Data/projects/dotfiles/githelpers ~/.githelpers
 ln -s ~/Data/projects/dotfiles/hgrc ~/.hgrc
 ln -s ~/Data/projects/dotfiles/pip.conf ~/.pip/pip.conf
-ln -s ~/Data/projects/dotfiles/myusuf3.zsh-theme ~/.oh-my-zsh/themes/
 echo "Updating submodules"
 git submodule foreach git pull origin master --recurse-submodules
 
