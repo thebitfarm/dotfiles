@@ -32,7 +32,7 @@ DEFAULT_USER="joe"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git pip django python brew redis-cli)
+plugins=(git pip python brew)
 
 source $ZSH/oh-my-zsh.sh
 unsetopt correct_all
@@ -43,6 +43,7 @@ unsetopt correct_all
 
 export PATH=/usr/local/opt/ruby/bin:/usr/local:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:
 export PATH=$PATH:/usr/local/sbin
+export PATH=$PATH:/opt/local/bin
 export PATH=/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin:$PATH
 export EDITOR='subl -w'
 
