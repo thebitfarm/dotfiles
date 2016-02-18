@@ -60,7 +60,12 @@ export TERM="xterm-256color"
 export PYTHONDONTWRITEBYTECODE=1
 export PYTHONUNBUFFERED=1
 export VIRTUALENV_DISTRIBUTE=true
+export PIP_REQUIRE_VIRTUALENV=true
 [[ -s /Users/myusuf3/.pythonz/etc/bashrc ]] && source /Users/myusuf3/.pythonz/etc/bashrc
+gpip(){
+       PIP_REQUIRE_VIRTUALENV="" pip "$@"
+}
+
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
