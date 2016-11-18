@@ -6,6 +6,8 @@ set -o emacs
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
+export PATH="/Users/joe/.cargo/bin:$PATH"
+
 source /usr/local/git/contrib/completion/git-completion.bash
 source /usr/local/git/contrib/completion/git-prompt.sh
 GIT_PS1_SHOWDIRTYSTATE=true
