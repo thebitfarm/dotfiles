@@ -71,6 +71,8 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+export PATH="/Users/joe/.cargo/bin:$PATH"
+
 
 # Go stuff
 export GOPATH=$HOME/go
