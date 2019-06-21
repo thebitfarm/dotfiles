@@ -77,3 +77,6 @@ export PATH="/Users/joe/.cargo/bin:$PATH"
 # Go stuff
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
+
+# Kubectl
+if [ $commands[kubectl] ]; then source <(kubectl completion zsh); fi

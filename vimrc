@@ -58,6 +58,9 @@ let g:pymode_folding = 0            " python-mode
 
 set laststatus=2                    " Always show the statusline
 
+" Clipboard
+set clipboard=unnamed
+
 " Enable fancy mode 
 let g:Powerline_symbols = 'fancy'   " Powerline
 
